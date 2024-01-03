@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_element_cards",
+  "info": {
+    "displayName": "Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "country": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "price": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "event": {
+      "type": "string"
+    },
+    "founded": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "image_more": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

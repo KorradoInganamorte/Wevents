@@ -1,0 +1,23 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+@layer base
+    *
+        box-sizing: border-box
+    input
+        @apply flex items-center py-[.4rem] px-[2rem] rounded-[.5rem] border border-black text-3xl placeholder:text-gray-500
+
+@layer components
+    .container_page
+        @apply max-w-[1600px] m-auto px-[3.5rem]
+    .btn
+        @apply py-[1.4rem] px-[2rem] bg-white text-4xl text-black rounded-[1rem] border border-black hover:bg-black hover:text-white transition-colors
+    .btn_active
+        @apply py-[1.4rem] px-[2rem] bg-blue text-4xl text-white rounded-[1rem] border border-black hover:bg-white hover:text-blue transition-colors
+    .line
+        @apply h-[.2rem] bg-blue
+    .grid-card
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(0, 50rem))
+        gap: 4.5rem
